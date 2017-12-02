@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mi_perfil"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Mi perfil" />
+        <item
+            android:id="@+id/recomendaciones"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Recomendaciones" />
+        <item
+            android:id="@+id/configuracion"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Actualizar información" />
+
+    </group>
+
+    <item android:title="Ejercicios">
+        <menu>
+            <item
+                android:id="@+id/abdomen"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Abdomen" />
+            <item
+                android:id="@+id/antebrazo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Antebrazo" />
+
+            <item
+                android:id="@+id/biceps"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Biceps" />
+
+            <item
+                android:id="@+id/espalda"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Espalda" />
+            <item
+                android:id="@+id/hombros"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Hombros" />
+            <item
+                android:id="@+id/pantorrilla"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pantorrilla" />
+            <item
+                android:id="@+id/pecho"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pecho" />
+            <item
+                android:id="@+id/pierna"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pierna" />
+            <item
+                android:id="@+id/triceps"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Triceps" />
+        </menu>
+    </item>
+
+    <item android:title="Mas">
+        <menu>
+            <item
+                android:id="@+id/acerca_de"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Acerca de" />
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Cerrar sesion" />
+        </menu>
+    </item>
+
+</menu>

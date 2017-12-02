@@ -1,0 +1,35 @@
+<resources>
+    <string name="nombre_app">Focus</string>
+
+    <!-- Strings related to login -->
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="error_login">Usuario o contraseña incorrectos</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="contraseña2">Repite tu contraseña</string>
+    <string name="nombre_requerido">Debes tener un nombre de usuario</string>
+    <string name="contraseña_requerida">Debes ingresar una contraseña</string>
+    <string name="rectificar_contraseña">Debes rectificar tu contraseña</string>
+    <string name="usuario_en_uso">Este nombre de usuario ya existe</string>
+    <string name="usuario_correcto">Usuario registrado con exito</string>
+    <string name="salir">Salir</string>
+    <string name="ingresar_altura">Ingresa tu altura(Cm)</string>
+    <string name="ingresar_peso">Ingresa tu peso(Kg)</string>
+    <string name="imc">Indice de Masa Corporal</string>
+    <string name="selecciona_somatotipo">Selecciona tu somatotipo</string>
+    <string name="mi_perfil">MI PERFIL</string>
+    <string name="peso">Peso(Kg)</string>
+    <string name="estatura">Estatura(Cm)</string>
+    <string name="somatotipo">Somatotipo</string>
+    <string name="recomendaciones">RECOMENDACIONES</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="f">animacion1</string>
+</resources>
