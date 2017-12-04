@@ -33,7 +33,7 @@ public class FragmentHombros extends Fragment {
         recyclerView=rootView.findViewById(R.id.my_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL,false));
         parte_cuerpo=rootView.findViewById(R.id.parte_cuerpo);
-        parte_cuerpo.setText("HOMBROS");
+        parte_cuerpo.setText(getResources().getString(R.string.hombros));
 
         SQLHelper db=new SQLHelper(getContext());
         db.opendb();

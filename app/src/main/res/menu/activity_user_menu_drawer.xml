@@ -6,71 +6,71 @@
         <item
             android:id="@+id/mi_perfil"
             android:icon="@drawable/ic_menu_send"
-            android:title="Mi perfil" />
+            android:title="@string/mi_perfil" />
         <item
             android:id="@+id/recomendaciones"
             android:icon="@drawable/ic_menu_share"
-            android:title="Recomendaciones" />
+            android:title="@string/recomendaciones" />
         <item
             android:id="@+id/configuracion"
             android:icon="@drawable/ic_menu_send"
-            android:title="Actualizar información" />
+            android:title="@string/actualizar" />
 
     </group>
 
-    <item android:title="Ejercicios">
+    <item android:title="@string/ejercicios">
         <menu>
             <item
                 android:id="@+id/abdomen"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Abdomen" />
+                android:title="@string/abdomen" />
             <item
                 android:id="@+id/antebrazo"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Antebrazo" />
+                android:title="@string/antebrazo" />
 
             <item
                 android:id="@+id/biceps"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Biceps" />
+                android:title="@string/biceps" />
 
             <item
                 android:id="@+id/espalda"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Espalda" />
+                android:title="@string/espalda" />
             <item
                 android:id="@+id/hombros"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Hombros" />
+                android:title="@string/hombros" />
             <item
                 android:id="@+id/pantorrilla"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Pantorrilla" />
+                android:title="@string/pantorrilla" />
             <item
                 android:id="@+id/pecho"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Pecho" />
+                android:title="@string/pecho" />
             <item
                 android:id="@+id/pierna"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Pierna" />
+                android:title="@string/pierna" />
             <item
                 android:id="@+id/triceps"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Triceps" />
+                android:title="@string/triceps" />
         </menu>
     </item>
 
-    <item android:title="Mas">
+    <item android:title="@string/mas">
         <menu>
             <item
                 android:id="@+id/acerca_de"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Acerca de" />
+                android:title="@string/acerca_de" />
             <item
                 android:id="@+id/cerrar_sesion"
                 android:icon="@drawable/ic_menu_manage"
-                android:title="Cerrar sesion" />
+                android:title="@string/cerrar_sesion" />
         </menu>
     </item>
 

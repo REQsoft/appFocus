@@ -34,21 +34,21 @@ public class UserRegist extends AppCompatActivity implements View.OnClickListene
         password2.setError(null);
         if(view.getId()==R.id.button_register){
              if(user_name.getText().toString().equals("")){
-                 user_name.setError("Debes tener un nombre de usuario");
+                 user_name.setError(getResources().getString(R.string.nombre_requerido));
                  return;
              }
              if(password.getText().toString().equals("")){
-                 password.setError("Debes tener una contraseña");
+                 password.setError(getResources().getString(R.string.contraseña_requerida));
                  return;
              }
              if(password2.getText().toString().equals("")){
-                 password2.setError("Debes rectificar tu contraseña");
+                 password2.setError(getResources().getString(R.string.rectificar_contraseña));
                  return;
              }
 
             if(!password2.getText().toString().equals(password.getText().toString())){
-                password2.setError("Las contraseñas no coinciden");
-                password.setError("Las contraseñas no coinciden");
+                password2.setError(getResources().getString(R.string.contraseñas_incompatibles));
+                password.setError(getResources().getString(R.string.contraseñas_incompatibles));
                 password.setText("");
                 password2.setText("");
                 return;
@@ -63,13 +63,13 @@ public class UserRegist extends AppCompatActivity implements View.OnClickListene
                         values.put("nombre_usu",user_name.getText().toString());
                         values.put("clave",password.getText().toString());
                         db.insert_user(values);
-                        Toast t=Toast.makeText(this, "El usuario se a registrado con exito", Toast.LENGTH_LONG);
+                        Toast t=Toast.makeText(this, getResources().getString(R.string.usuario_correcto), Toast.LENGTH_LONG);
                         t.show();
                         Intent i=new Intent(this, LoginActivity.class);
                         startActivity(i);
                     }
                 }else{
-                    user_name.setError("Este nombre de usuario ya esta en uso");
+                    user_name.setError(getResources().getString(R.string.usuario_en_uso));
                 }
             }catch (Exception e){
                 Toast t=Toast.makeText(this, "Ha ocurrido un error", Toast.LENGTH_LONG);

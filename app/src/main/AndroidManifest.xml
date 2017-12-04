@@ -15,8 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/app_name">
+            android:name=".FullscreenActivity"
+            android:label="@string/nombre_app">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".UserRegist" />
+        <activity android:name=".LoginActivity" />
         <activity
             android:name=".Initialize_user"
             android:label="@string/title_activity_initialize_user"
@@ -32,7 +33,7 @@
         <activity
             android:name=".UserMenu"
             android:label="@string/title_activity_user_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

@@ -66,7 +66,7 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener 
                     }
                 }
                 else{
-                    Toast t=Toast.makeText(this, "Usuario o contraseña incorrecto", Toast.LENGTH_LONG);
+                    Toast t=Toast.makeText(this, getResources().getString(R.string.error_login), Toast.LENGTH_LONG);
                     t.show();
                 }
             } catch (Exception e) {

@@ -35,7 +35,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dieta"
+                    android:text="@string/dieta"
                     android:gravity="center"
                     android:layout_margin="2dp"
                     android:background="@color/colorAccent"/>
@@ -56,7 +56,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Carbohidratos"
+                            android:text="@string/carbohidratos"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Proteinas"
+                            android:text="@string/proteinas"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -96,7 +96,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Grasas"
+                            android:text="@string/grasas"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -119,7 +119,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Intensidad de ejercicios"
+                    android:text="@string/intensidad"
                     android:gravity="center"
                     android:layout_margin="2dp"
                     android:background="@color/colorAccent"/>
@@ -140,7 +140,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Peso"
+                            android:text="@string/peso"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -160,7 +160,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Numero de series"
+                            android:text="@string/numero_series"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -180,7 +180,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Repeticiones"
+                            android:text="@string/Repeticiones"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -203,7 +203,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Descanso entre series"
+                    android:text="@string/descanso"
                     android:gravity="left"
                     android:layout_margin="2dp"
                     android:padding="3dp"
@@ -227,7 +227,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tiempo de trabajo semanal"
+                    android:text="@string/trabajo_semanal"
                     android:gravity="center"
                     android:layout_margin="2dp"
                     android:background="@color/colorAccent"/>
@@ -248,7 +248,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Horas semanal"
+                            android:text="@string/horas_semana"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -268,7 +268,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Dias en semana"
+                            android:text="@string/dias_semana"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -288,7 +288,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Division sesiones"
+                            android:text="@string/divisio"
                             android:gravity="center"/>
                         <TextView
                             android:layout_width="match_parent"

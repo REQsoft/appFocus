@@ -33,7 +33,7 @@ public class FragmentPecho extends Fragment {
         recyclerView=rootView.findViewById(R.id.my_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL,false));
         parte_cuerpo=rootView.findViewById(R.id.parte_cuerpo);
-        parte_cuerpo.setText("PECHO");
+        parte_cuerpo.setText(getResources().getString(R.string.pecho));
 
         SQLHelper db=new SQLHelper(getContext());
         db.opendb();

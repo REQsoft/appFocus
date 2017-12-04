@@ -1,6 +1,5 @@
 <resources>
     <string name="nombre_app">Focus</string>
-
     <!-- Strings related to login -->
     <string name="contraseña">Contraseña</string>
     <string name="ingresar">Ingresar</string>
@@ -18,18 +17,58 @@
     <string name="ingresar_peso">Ingresa tu peso(Kg)</string>
     <string name="imc">Indice de Masa Corporal</string>
     <string name="selecciona_somatotipo">Selecciona tu somatotipo</string>
-    <string name="mi_perfil">MI PERFIL</string>
+    <string name="mi_perfil">Mi perfil</string>
     <string name="peso">Peso(Kg)</string>
     <string name="estatura">Estatura(Cm)</string>
     <string name="somatotipo">Somatotipo</string>
-    <string name="recomendaciones">RECOMENDACIONES</string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <string name="ectoformo">Ectoformo</string>
+    <string name="mesomorfo">Mesomorfo</string>
+    <string name="endomorfo">Endomorfo</string>
+    <string name="continuar">Continuar</string>
+    <string name="dieta">Dieta</string>
+    <string name="carbohidratos">Carbohidratos</string>
+    <string name="proteinas">Proteinas</string>
+    <string name="grasas">Grasas</string>
+    <string name="intensidad">Intensidad de ejercicos</string>
+    <string name="numero_series">Numero de series</string>
+    <string name="Repeticiones">Repeticiones</string>
+    <string name="descanso">Descanso entre series</string>
+    <string name="trabajo_semanal">Tiempo de trabajo semanal</string>
+    <string name="horas_semana">Horas semana</string>
+    <string name="dias_semana">Dias en semana</string>
+    <string name="divisio">Division de sesiones</string>
+    <string name="abdomen">Abdomen</string>
+    <string name="antebrazo">Antebrazo</string>
+    <string name="biceps">Biceps</string>
+    <string name="espalda">Espalda</string>
+    <string name="hombros">Hombros</string>
+    <string name="pantorrilla">Pantorrilla</string>
+    <string name="pecho">Pecho</string>
+    <string name="pierna">Pierna</string>
+    <string name="triceps">Triceps</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="mas">Mas</string>
+    <string name="actualizar">Actualizar informacion</string>
+    <string name="ejercicios">Ejercicios</string>
+    <string name="contraseñas_incompatibles">Las contraseñas no son iguales</string>
+    <string name="estatura_requerida">Es necesario conocer tu estatura</string>
+    <string name="peso_requerido">Es necesario conocer tu peso</string>
+    <string name="somatotipo_requerido">Debes seleccionar tu somatotipo</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_initialize_user">Focus</string>
+    <string name="title_activity_user_menu">Focus</string>
 
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="f">animacion1</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

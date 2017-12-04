@@ -109,7 +109,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border"
-                        android:text="Ectomorfo"
+                        android:text="@string/ectoformo"
                         android:textStyle="italic"
                         android:textSize="9dp"/>
                 </LinearLayout>
@@ -133,7 +133,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border"
-                        android:text="Mesomorfo"
+                        android:text="@string/mesomorfo"
                         android:textStyle="italic"
                         android:textSize="9dp"/>
                 </LinearLayout>
@@ -156,7 +156,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border"
-                        android:text="Endomorfo"
+                        android:text="@string/endomorfo"
                         android:textStyle="italic"
                         android:textSize="9dp"/>
                 </LinearLayout>
@@ -166,7 +166,7 @@
                 android:id="@+id/netx"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Continuar"/>
+                android:text="@string/continuar"/>
         </LinearLayout>
     </ScrollView>
 

@@ -169,16 +169,12 @@ public class Inicialize_user extends AppCompatActivity implements View.OnClickLi
                     user = cursor.getString(cursor.getColumnIndex("nombre_usu"));
                      db.initialize_user(user,UserWeight.getText().toString(),UserHeight.getText().toString(),
                             UserBMI.getText().toString(),somatotype);
-                    Toast t=Toast.makeText(this, "Usuario inicializado", Toast.LENGTH_LONG);
-                    t.show();
                      return true;
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Toast t=Toast.makeText(this, "Usuario NO inicializado", Toast.LENGTH_LONG);
-        t.show();
         return false;
     }
 
@@ -188,15 +184,15 @@ public class Inicialize_user extends AppCompatActivity implements View.OnClickLi
         Boolean success=true;
         if(UserWeight.getText().toString().equals("")){
             success=false;
-            UserWeight.setError("Es necesario conocer tu peso");
+            UserWeight.setError(getResources().getString(R.string.peso_requerido));
         }
         if(UserHeight.getText().toString().equals("")){
             success=false;
-            UserHeight.setError("Es necesario conocer tu altura");
+            UserHeight.setError(getResources().getString(R.string.estatura_requerida));
         }
         if(!checkEndomorfo.isChecked() && !checkEctomorfo.isChecked() && !checkMesomorfo.isChecked()){
             success=false;
-            Toast t=Toast.makeText(this, "Debes seleccionar tu tipo de cuerpo", Toast.LENGTH_LONG);
+            Toast t=Toast.makeText(this, getResources().getString(R.string.somatotipo_requerido), Toast.LENGTH_LONG);
             t.show();
         }
         return success;

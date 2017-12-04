@@ -1,20 +1,62 @@
 <resources>
-    <string name="app_name">Focus</string>
-
+    <string name="nombre_app">Focus</string>
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-    <string name="title_activity_initialize_user">Initialize_user</string>
-    <string name="title_activity_user_menu">UserMenu</string>
+    <string name="contraseña">Password</string>
+    <string name="ingresar">Enter</string>
+    <string name="registrarme">Sign in</string>
+    <string name="error_login">User or password incorrect</string>
+    <string name="nombre_usuario">User name</string>
+    <string name="contraseña2">Repeat your password</string>
+    <string name="nombre_requerido">You have to have a user name</string>
+    <string name="contraseña_requerida">you have to enter a password</string>
+    <string name="rectificar_contraseña">You have to confirm your password</string>
+    <string name="usuario_en_uso">User name exist already</string>
+    <string name="usuario_correcto">User sign in right</string>
+    <string name="salir">Exit</string>
+    <string name="ingresar_altura">Enter your height(Cm)</string>
+    <string name="ingresar_peso">Enter you weight(Kg)</string>
+    <string name="imc">Body mass index</string>
+    <string name="selecciona_somatotipo">Select your somatotype</string>
+    <string name="mi_perfil">My profile</string>
+    <string name="peso">Weight(Kg)</string>
+    <string name="estatura">Height(Cm)</string>
+    <string name="somatotipo">Somatotype</string>
+    <string name="recomendaciones">Findings</string>
+    <string name="ectoformo">Ectomorph</string>
+    <string name="mesomorfo">Mesomorph</string>
+    <string name="endomorfo">Endomorph</string>
+    <string name="continuar">Continue</string>
+    <string name="dieta">Diet</string>
+    <string name="carbohidratos">Carbohydrates</string>
+    <string name="proteinas">Proteins</string>
+    <string name="grasas">Fat</string>
+    <string name="intensidad">Intensity of exercises</string>
+    <string name="numero_series">Number of series</string>
+    <string name="Repeticiones">Repetitions</string>
+    <string name="descanso">Rest between series</string>
+    <string name="trabajo_semanal">Weekly work time</string>
+    <string name="horas_semana">Week hours</string>
+    <string name="dias_semana">Days in week</string>
+    <string name="divisio">Division of sessions</string>
+    <string name="abdomen">Abdomen</string>
+    <string name="antebrazo">Forearm</string>
+    <string name="biceps">Biceps</string>
+    <string name="espalda">Back</string>
+    <string name="hombros">Shoulders</string>
+    <string name="pantorrilla">Calf</string>
+    <string name="pecho">Chest</string>
+    <string name="pierna">Leg</string>
+    <string name="triceps">Triceps</string>
+    <string name="acerca_de">About</string>
+    <string name="cerrar_sesion">Sign off</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="mas">More</string>
+    <string name="actualizar">Update information</string>
+    <string name="ejercicios">Exercises</string>
+    <string name="contraseñas_incompatibles">Passwords are not the same</string>
+    <string name="estatura_requerida">It is necessary to know your height</string>
+    <string name="peso_requerido">It is necessary to know your weght</string>
+    <string name="somatotipo_requerido">You must select your somatotype</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -23,5 +65,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="f">animacion1</string>
+    <string name="title_activity_initialize_user">Focus</string>
+    <string name="title_activity_user_menu">Focus</string>
 </resources>
